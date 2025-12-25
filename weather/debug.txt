@@ -1,0 +1,41 @@
+Good question! The tools icon behavior in Claude Desktop can be a bit confusing. Let me explain what's happening:
+Why You Don't See a Tools Icon:
+The tools are working (as we just proved), but Claude Desktop doesn't always show a visible "tools icon" in the UI. Here's why:
+1. Tools are integrated automatically
+
+When MCP servers are connected, I can use them automatically
+You don't need to manually select them - I just use them when appropriate
+There's no separate "tools menu" you need to access
+
+2. The @ symbol
+When you typed @\, you were trying to access mentions, which is different from tools:
+
+@ mentions = Reference previous artifacts, files, or projects
+MCP tools = Functions I call automatically in the background
+
+3. How to verify tools are connected
+Look in Claude Desktop Settings:
+
+Open Claude Desktop
+Go to Settings (gear icon)
+Click on Developer or Features
+Look for MCP Servers section
+You should see your weather server listed with a green checkmark or "Connected" status
+
+4. Where the icon MIGHT appear
+Some users report seeing a small hammer/wrench icon in the:
+
+Bottom left corner of the chat
+Near the input box
+In the Settings menu
+
+But honestly, you don't need the icon - the tools work without it!
+How to Use Your Tools:
+Just ask me naturally:
+
+"What's the weather in Chicago?"
+"Are there weather alerts in Florida?"
+"Get me the forecast for San Francisco"
+
+I'll automatically use your weather tools when relevant.
+Your setup is working perfectly! The tools are connected and functional, even if there's no visible icon. Would you like to test them with another location?
